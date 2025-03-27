@@ -1,0 +1,132 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: blue;
+    margin: 0;
+}
+
+#container {
+    height: 100%;
+    background-color: azure;
+    display: flex;
+}
+
+#esquerda {
+    height: 100%;
+    width: 50%;
+}
+
+#direita {
+    height: 100%;
+    width: 50%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#esquerdaTopo {
+    height: 15%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+#esquerdaTopoDois {
+    height: 15%;
+    width: 100%;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#esquerdaMeio {
+    height: 20%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#esquerdaBaixo {
+    height: 40%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#esquerdaBaixoDois {
+    height: 10%;
+    width: 100%;
+   
+}
+
+#bill {
+    margin: 10px 10px 50px;
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhar o texto */
+    text-decoration: none; /* Remover sublinhado */
+    display: inline-block; /* Definir como inline-block */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Alterar o cursor ao passar o mouse */
+    transition: background-color 0.3s ease;
+}
+
+.icons {
+    height: 30%;
+}
+
+#email {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin: 10px 10px 50px;
+
+}
+
+#senha {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    margin: 10px 10px 50px;
+
+}
+
+#loguin {
+    font-size: 732%;
+
+}
+
+#conectar {
+    background-color: #f3b21a;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
